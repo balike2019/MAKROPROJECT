@@ -32,7 +32,7 @@ Cart class
 TEST
 Application class
 VARIABLES AND METHODS OF THE VARIOUS CLASSES
-1 Person Class
+1 Person Class.
 
  
 
