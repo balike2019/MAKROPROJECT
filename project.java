@@ -2,40 +2,44 @@
 
 
 JAVA
-DESIGN FOR MACRO PROJECT
-CLASSES INVOLUE
-PERSON CLASS
-EMPLOYEES CLASS
-COMPANY CLASS
-INVENTORY CLASS
-PRODUCTS CLASS
+DESIGN FOR MAKRO PROJECT
 
-PAYMENT CLASS
-CART CLASS
-SUPPLY CLASS
+CLASSES INVOLUE
+1 PERSON CLASS
+ 2 EMPLOYEES CLASS
+ 3 COMPANY CLASS
+ 4 INVENTORY CLASS
+5 PRODUCTS CLASS
+6 PAYMENT CLASS
+7 CART CLASS
+8 SUPPLY CLASS
 
 
 CLASSIFICATION OF CLASSES
 
  UNDER PEOPLE
-
-PERSON CLASS 
-CUSTOMER CLASS
-EMPLOYEES CLASS 
-COMPANY CLASS
+1 PERSON CLASS 
+2 CUSTOMER CLASS
+3 EMPLOYEES CLASS 
+4 COMPANY CLASS
 
  UNDER STOCK
-INVENTORY
-PRODUCTS
-SUPPLY
- SALES
-Payment Class
-Cart class
+1 INVENTORY
+2 PRODUCTS
+3 SUPPLY
+
+UNDER  SALES
+
+1 PAYMENT CLASS
+2 CART CLASS
  
 TEST
-Application class
+
+1 APPLICATION CLASS
+
 VARIABLES AND METHODS OF THE VARIOUS CLASSES
-1 Person Class
+
+1 PERSON CLASS
 name 
 age
 address
@@ -43,9 +47,7 @@ emailAddress
 phoneNumber
 gender
 
-EMPLOYEE CLASS
-VARIABLES
-
+2 EMPLOYEES CLASS
 staffNumber
 position
 password
@@ -55,25 +57,24 @@ idnumber
 
 METHODS
 
-sellproducts
+sellProducts
 registerProducts(manager)
 voidProducts(manager)
 login
 
-CUSTOMER
+3 CUSTOMER ClASS
 
 card
 
 METHODS
-
-sellproducts
+selectProducts
 buyProducts
 
-Relationship between classes above
+RELATIONSHIP BETWEEN CLASS ABOVE
 1 customer is a person
 2 employee is a person
 
-COMPANY CLASS
+4 COMPANY CLASS
 
 name
 address
@@ -81,50 +82,53 @@ emailAddress
 phoneNumber
 
 METHODS
-
-employeeregistration
+employeesregistration
 login
-printreceipt
+printReceipt
 
-RELATIONSHIP
+RELATIONSHIP BETWEEN EMPLOYEES AND COMPANY
 
 company has employees
 
 
-inventory has a relationship with supplier
+5 INVENTORY CLASS
+ has a relationship with supply
 
-SUPPLIER
+6 SUPPLY CLASS
 
 supplier supply products
 supplier is a company
-7 Products
+
+7 PRODUCTS CLASS
 name 
 price
 barcode
 manifacture date
 expired date
+
 RELATIONSHIP
 products has  relationship with inventory
-supply has relationship with product
+supply has relationship with products
 
 
-8PAYMENT Class
+8 PAYMENT CLASS
 date
 time
 totalPayment
 balance
-agentName
+salesPerson
+pointOfSalesNumber
 customerName
 cashTender
 price
 quantity
-
+totalAmount
 METHOD
 typyOfPayment
 
 
-9
-Cart class
+
+9 CART CLASS
 has relationship with products
 has relationship with payment
  METHOD
