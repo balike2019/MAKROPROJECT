@@ -1,6 +1,6 @@
 # MAKROPROJECT
 
-Hi, I am java
+
 JAVA
 DESIGN FOR MACRO PROJECT
 CLASSES INVOLUE
@@ -86,23 +86,48 @@ employeeregistration
 login
 printreceipt
 
-Relationship
+RELATIONSHIP
 
 company has employees
 
 
-invetory has a relationship with supplier
+inventory has a relationship with supplier
 
 SUPPLIER
 
 supplier supply products
 supplier is a company
+7 Products
+name 
+price
+barcode
+manifacture date
+expired date
+RELATIONSHIP
+products has  relationship with inventory
+supply has relationship with product
 
 
+8PAYMENT Class
+date
+time
+totalPayment
+balance
+agentName
+customerName
+cashTender
+price
+quantity
+
+METHOD
+typyOfPayment
 
 
-
-
-
+9
+Cart class
+has relationship with products
+has relationship with payment
+ METHOD
+addProductToCart
  
 
