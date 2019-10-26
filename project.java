@@ -34,14 +34,12 @@ UNDER  SALES
 2 CART CLASS
  
 TEST
-<<<<<<< HEAD
 
 1 APPLICATION CLASS
 
 VARIABLES AND METHODS OF THE VARIOUS CLASSES
 
 1 PERSON CLASS
-
 name 
 age
 address
@@ -50,8 +48,6 @@ phoneNumber
 gender
 
 2 EMPLOYEES CLASS
-VARIABLES
-
 staffNumber
 position
 password
@@ -66,8 +62,8 @@ registerProducts(manager)
 voidProducts(manager)
 login
 
-
 3 CUSTOMER ClASS
+
 card
 
 METHODS
@@ -79,7 +75,6 @@ RELATIONSHIP BETWEEN CLASS ABOVE
 2 employee is a person
 
 4 COMPANY CLASS
-
 
 name
 address
