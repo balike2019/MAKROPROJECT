@@ -13,7 +13,7 @@ CLASSES INVOLUE
 6 PAYMENT CLASS
 7 CART CLASS
 8 SUPPLY CLASS
-
+9 CUSTOMER CLASS
 
 CLASSIFICATION OF CLASSES
 
@@ -41,11 +41,7 @@ TEST
 VARIABLES AND METHODS OF THE VARIOUS CLASSES
 
 1 PERSON CLASS
-=======
-1 Application class
-VARIABLES AND METHODS OF THE VARIOUS CLASSES
-2 Person Class
->>>>>>> 7e7c8f575bc975b1e707b60d3f978a2e92a4be47
+
 name 
 age
 address
@@ -53,13 +49,9 @@ emailAddress
 phoneNumber
 gender
 
-<<<<<<< HEAD
 2 EMPLOYEES CLASS
-=======
-3 EMPLOYEE CLASS
 VARIABLES
 
->>>>>>> 7e7c8f575bc975b1e707b60d3f978a2e92a4be47
 staffNumber
 position
 password
@@ -74,12 +66,8 @@ registerProducts(manager)
 voidProducts(manager)
 login
 
-<<<<<<< HEAD
-3 CUSTOMER ClASS
-=======
-4 CUSTOMER
->>>>>>> 7e7c8f575bc975b1e707b60d3f978a2e92a4be47
 
+3 CUSTOMER ClASS
 card
 
 METHODS
@@ -90,11 +78,8 @@ RELATIONSHIP BETWEEN CLASS ABOVE
 1 customer is a person
 2 employee is a person
 
-<<<<<<< HEAD
 4 COMPANY CLASS
-=======
-5 COMPANY CLASS
->>>>>>> 7e7c8f575bc975b1e707b60d3f978a2e92a4be47
+
 
 name
 address
@@ -114,11 +99,7 @@ company has employees
 5 INVENTORY CLASS
  has a relationship with supply
 
-<<<<<<< HEAD
 6 SUPPLY CLASS
-=======
-6 SUPPLIER
->>>>>>> 7e7c8f575bc975b1e707b60d3f978a2e92a4be47
 
 supplier supply products
 supplier is a company
