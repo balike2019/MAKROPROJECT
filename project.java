@@ -33,9 +33,9 @@ Payment Class
 Cart class
  
 TEST
-Application class
+1 Application class
 VARIABLES AND METHODS OF THE VARIOUS CLASSES
-1 Person Class
+2 Person Class
 name 
 age
 address
@@ -43,7 +43,7 @@ emailAddress
 phoneNumber
 gender
 
-EMPLOYEE CLASS
+3 EMPLOYEE CLASS
 VARIABLES
 
 staffNumber
@@ -60,7 +60,7 @@ registerProducts(manager)
 voidProducts(manager)
 login
 
-CUSTOMER
+4 CUSTOMER
 
 card
 
@@ -73,7 +73,7 @@ Relationship between classes above
 1 customer is a person
 2 employee is a person
 
-COMPANY CLASS
+5 COMPANY CLASS
 
 name
 address
@@ -93,7 +93,7 @@ company has employees
 
 inventory has a relationship with supplier
 
-SUPPLIER
+6 SUPPLIER
 
 supplier supply products
 supplier is a company
